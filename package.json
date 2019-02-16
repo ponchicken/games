@@ -2,16 +2,22 @@
   "name": "games",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "react": "^16.8.2",
-    "react-dom": "^16.8.2",
-    "react-scripts": "2.1.5"
-  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@types/react-dom": "^16.8.1",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "react-scripts": "2.1.5"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.3",
+    "tslint": "^5.12.1",
+    "tslint-config-standard": "^8.0.1"
   },
   "eslintConfig": {
     "extends": "react-app"
