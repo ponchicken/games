@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
-    "outDir": "./dist/", // path to output directory
-    "lib": ["es2016", "dom", "webworker"],
+    "outDir": "./dist/",
+    "lib": [
+      "es2016",
+      "dom",
+      "webworker"
+    ],
     "target": "es5",
     "module": "esnext",
     "moduleResolution": "node",
@@ -10,13 +14,28 @@
     "removeComments": true,
     "sourceMap": true,
     "allowJs": true,
-    "jsx": "react",
+    "jsx": "preserve",
     "strict": false,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "esModuleInterop": true,
-    "typeRoots": ["./node_modules/@types", "./typings"]
+    "typeRoots": [
+      "./node_modules/@types",
+      "./typings",
+      "node_modules/@develephant/types-phaser"
+    ],
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true
   },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules", "**/*.spec.ts"]
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ]
 }
