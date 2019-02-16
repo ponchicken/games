@@ -2,6 +2,8 @@
   "defaultSeverity": "warning",
   "extends": ["tslint:latest", "tslint-config-standard"],
   "jsRules": {},
-  "rules": {},
+  "rules": {
+    "object-literal-sort-keys": false
+  },
   "rulesDirectory": []
 }

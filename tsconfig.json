@@ -21,8 +21,7 @@
     "esModuleInterop": true,
     "typeRoots": [
       "./node_modules/@types",
-      "./typings",
-      "node_modules/@develephant/types-phaser"
+      "./typings"
     ],
     "skipLibCheck": true,
     "allowSyntheticDefaultImports": true,
@@ -36,6 +35,10 @@
   ],
   "exclude": [
     "node_modules",
-    "**/*.spec.ts"
+    "**/*.spec.ts",
+    "typings"
+  ],
+  "files": [
+    "typings/phaser.d.ts"
   ]
 }

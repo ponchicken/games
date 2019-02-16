@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import '../../games/volleyball'
 // const styles = require('./styles.module.css')
 import styles from './styles.module.css'
 
