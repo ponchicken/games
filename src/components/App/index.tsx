@@ -1,18 +1,16 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 // const styles = require('./styles.module.css')
 import styles from './styles.module.css'
 
 class App extends Component {
-  render() {
+  public render () {
     return (
-      <div className="App">
+      <div className='App'>
         app
-        <header className={styles.header}>
-          header
-        </header>
+        <header className={styles.header}>header</header>
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App
